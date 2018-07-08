@@ -1,0 +1,84 @@
+body {
+  background: #32cd32
+  font-family: helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  width: 600px;
+  margin: 96px auto;
+  position: center;
+  text-align: center;
+
+}
+
+label {
+  font-family: helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 1.4em;
+  width: 600px;
+  margin: 96px auto;
+  position: static;
+}
+
+h2 {
+  position: relative;
+  font-size: 32px;
+}
+.task {
+  list-style: none;
+  font-size: 1px;
+  line-height: 1.8em;
+}
+
+#todolist-container {
+  box-sizing: border-box;
+  border: 5px solid black;
+  background: darkslategray
+  margin: auto;
+  padding: 25px;
+  width: 50%auto%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, 10%);
+  border-radius: 10px;
+}
+
+
+  .task.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+
+#new-task-input {
+  background-color: #inherit;
+  width: 50%;
+  height: 5.5%;
+  text-indent: 12px;
+  font-family: helvetica, sans-serif;
+  font-weight: 400%;
+  font-size: 18px;
+  padding: 3px;
+  color: darkslategray;
+  border:none;
+  box-shadow: none;
+  outline: none;
+  border:1px solid slategray;
+  border-radius: 25px 25px 25px 10px;
+  padding-right: 50px;
+  position: static;
+  left: 15%;
+}
+
+  #new-task-input:focus {
+    outline: none;
+    border-bottom-color: #0D99FC;
+  }
+
+button {
+  background: #0D99FC;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.4em;
+}
